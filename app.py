@@ -18,8 +18,8 @@ def generate_image(generator, input_image):
     generated_image = (generated_image + 1) * 127.5  # Unnormalize [0, 255]
     return tf.squeeze(generated_image).numpy().astype("uint8")
 
-generator_black = load_model("model/generator_model_black_100.h5")
-generator_white = load_model("model/generator_model_white_100.h5")
+generator_black = load_model("generator_model_black_100.h5")
+generator_white = load_model("generator_model_white_100.h5")
 
 st.title("Pix2Pix: Edge to Artistic Image")
 st.subheader("Choose a version to generate your artistic image.")
