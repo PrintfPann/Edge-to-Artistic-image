@@ -24,4 +24,4 @@ Licenses: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) and 
 link: https://edge-to-artistic-image.streamlit.app/
 
 ## Blog
-link: 
+link: https://medium.com/@pantawee.srihawan/edge-to-artistic-image-using-pix2pix-468db6736104
